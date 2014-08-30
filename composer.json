@@ -2,7 +2,7 @@
     "name": "jovanialferez/yii2-s3",
     "type": "library",
     "description": "An Amazon S3Client wrapper as Yii2 component",
-    "keywords": ["s3","yii2"],
+    "keywords": ["yii2-s3","yii2s3", "s3","yii2"],
     "homepage": "https://github.com/jovanialferez/yii2-s3",
     "license": "MIT",
     "authors": [
