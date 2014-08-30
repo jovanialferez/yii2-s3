@@ -3,7 +3,7 @@
  * @author: Jovani F. Alferez <vojalf@gmail.com>
  */
 
-namespace jovanialferez\yii2-s3;
+namespace jovanialferez\yii2s3;
 
 /**
  * A Yii2-compatible component wrapper for Aws\S3\S3Client.
@@ -13,7 +13,7 @@ namespace jovanialferez\yii2-s3;
  * ~~~
  * 'components' => [
  *     'storage' => [
- *          'class' => '\common\components\storage\AmazonS3',
+ *          'class' => '\jovanialferez\yii2s3\AmazonS3',
  *          'key' => 'AWS_ACCESS_KEY_ID',
  *          'secret' => 'AWS_SECRET_ACCESS_KEY',
  *          'bucket' => 'YOUR_BUCKET',
