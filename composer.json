@@ -1,0 +1,21 @@
+{
+    "name": "jovanialferez/yii2-s3",
+    "type": "library",
+    "description": "An Amazon S3Client wrapper as Yii2 component",
+    "keywords": ["s3","yii2"],
+    "homepage": "https://github.com/jovanialferez/yii2-s3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jovani Fernandez Alferez",
+            "email": "vojalf@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "aws/aws-sdk-php": "2.6.*"
+    },
+    "autoload": {
+        "psr-4": { "jovanialferez\\yii2-s3\\": "" }
+    }
+}
