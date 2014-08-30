@@ -16,6 +16,6 @@
         "aws/aws-sdk-php": "2.6.*"
     },
     "autoload": {
-        "psr-4": { "jovanialferez\\yii2-s3\\": "" }
+        "psr-4": { "jovanialferez\\yii2s3\\": "" }
     }
 }
