@@ -66,6 +66,7 @@ class AmazonS3 extends \yii\base\Component
                     'Bucket' => $bucket,
                     'Key' => $fileName,
                     'SourceFile' => $filePath,
+                    'ContentType' => \yii\helpers\FileHelper::getMimeType($filePath),
                 ]);
 
             return $result->get('ObjectURL');
