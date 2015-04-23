@@ -11,7 +11,7 @@ return [
 	'components' => [
 		'storage' => [
 			'class' => '\jovanialferez\yii2s3\AmazonS3',
-			key' => 'AWS_ACCESS_KEY_ID',
+			'key' => 'AWS_ACCESS_KEY_ID',
 			'secret' => 'AWS_SECRET_ACCESS_KEY',
 			'bucket' => 'YOUR_BUCKET',
 		],
