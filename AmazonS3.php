@@ -34,7 +34,7 @@ class AmazonS3 extends \yii\base\Component
     public $key;
     public $secret;
 
-    private $_client;
+    protected $_client;
 
     public function init()
     {
